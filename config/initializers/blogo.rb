@@ -1,17 +1,18 @@
+# -*- coding: utf-8 -*-
 Blogo.configure do |config|
   # Edit this to match the subject of your blog
-  config.site_title    = 'Blogo'
-  config.site_subtitle = 'Mountable blog engine for Ruby on Rails'
+  config.site_title    = "The Third of May #{Date.today.year}"
+  config.site_subtitle = '日々の妄想をつらつらと…'
 
   # Supported languages: :html, :markdown
-  config.markup_lang = :html
+  config.markup_lang = :markdown
 
   config.paginator_size = 3
   config.posts_per_page = 10
   config.recent_posts =  3
 
   # Maybe you do not want to use CKEditor, if you use markdown
-  config.use_ckeditor = true
+  config.use_ckeditor = false
 
   config.show_rss_icon = true
 
