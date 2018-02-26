@@ -101,7 +101,7 @@ textarea {
 
 a { color: #D40000; text-decoration: none; }
 a:hover { color: #8F0000; }
-p { line-height: 1.7em; margin: 0 0 0; }
+p { line-height: 1.7em; margin: 0 0 15px; }
 .x { clear: both; }
 
 h1 { float: left; font-size: 2em; font-weight: normal; font-style: italic; padding: 0 0 25px 10px; margin: 0 0 10px; }
@@ -142,6 +142,7 @@ h3 a { color: #222; }
 .header-box .colorbox-top .right { float: right; width: 60%; border-top: 1px solid #ffffff; }
 
 .header-box .colorbox-middle { clear: both; width: 100%; height: 100% }
+.header-box .colorbox-middle p { line-height: 1.7em; margin: 0 0 0; }
 .header-box .colorbox-middle .left { float: left; }
 .header-box .colorbox-middle .left .details { clear: both; width: 250px; padding: 20px 30px 0 10px; }
 .header-box .colorbox-middle .middle { float: left; width: 1px; height: 100%; border-left: 1px solid #c32d00; }
