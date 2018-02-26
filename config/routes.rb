@@ -53,4 +53,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  Blogo::Routes.mount_to(self, at: '/doujin')
 end
