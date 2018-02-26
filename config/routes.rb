@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -58,4 +60,9 @@ Rails.application.routes.draw do
   root :to => 'top#index'
 
   Blogo::Routes.mount_to(self, at: '/doujin')
+
+  ## お問い合わせフォーム
+  get 'contacts/new'
+  get 'contacts/create'
+  resources "contacts", only: [:new, :create]
 end
