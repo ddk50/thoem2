@@ -1,4 +1,5 @@
-# -*- coding: undecided -*-
+# -*- coding: utf-8 -*-
+
 Rails.application.routes.draw do
   get 'contacts/new'
 
